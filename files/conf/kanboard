@@ -1,0 +1,6 @@
+server {
+        listen          80;
+	server_name     kanboard kanboard.neuronpointer.net;
+        return 301      https://kanboard.neuronpointer.net$request_uri;
+}
+
