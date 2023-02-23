@@ -22,3 +22,4 @@ symlinks:
     dest:               "/etc/nginx/sites-enabled/kanboard.ssl"
 restart_services:
   - 'nginx'
+  - 'nginx'
